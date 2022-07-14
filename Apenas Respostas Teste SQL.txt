@@ -73,7 +73,6 @@ FROM `produtos`
 WHERE `produtos`.`preco_prod` > 100000
 GROUP BY `produtos`.`loj_prod`;
 
-
 Observe as Tabelas Abaixo:
 
 Tabela de Produtos
@@ -93,8 +92,7 @@ qtd_prod	decimal(15,3)		Quantidade em Estoque do Produto
 Tabela de Lojas
 Campo	Tipo de Campo	Chave	Comentário
 loj_prod	Integer (8)	X	Código da Loja
-desc_loj	Char (40)		Descrição da Loja
- 			 
+desc_loj	Char (40)		Descrição da Loja		 
  			 
 A)Montar um unico select para trazer os seguintes campos: o código da loja do produto, a descrição da loja, código do produto, a descrição do produto, o preço do produto, a quantidade em estoque do produto. Considere  que o código da loja para esta consulta seja igual a 1.
 
